@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-gray-200">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -15,7 +15,7 @@ const Header = () => {
         <li><a>Blog</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost normal-case font-semibold text-black text-2xl">Job Ascend</a>
+    <a className="btn btn-ghost normal-case font-bold text-black text-2xl">Job Ascend</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">

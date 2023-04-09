@@ -1,0 +1,24 @@
+ [
+      {
+        "category_name": "Account & Finance",
+        "description": "300 Jobs Available",
+        "logo_url": "https://png.pngtree.com/png-vector/20200121/ourmid/pngtree-financial-consulting-logo-vector-template-png-image_2132677.jpg"
+      },
+      {
+        "category_name": "Creative Design",
+        "description": "300 Jobs Available",
+        "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQHER3Q9yTTP2HoCbLhprxRaVlLcYoJUIsndH1d28&s"
+      },
+      {
+        "category_name": "Marketing & Sales",
+        "description": "150 Jobs Available",
+        "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRes0ueIYE4b2944bHyw50buw2_-z1CF0CRQYxrMas&s"
+      },
+      {
+        "category_name": "Engineering Job",
+        "description": "224 Jobs Available",
+        "logo_url": "data:image/png;base64,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"
+      }
+]
+
+  
