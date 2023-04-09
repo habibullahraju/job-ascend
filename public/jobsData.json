@@ -1,0 +1,113 @@
+[
+    {
+      "id": 1,
+      "company_logo": "https://example.com/logo1.png",
+      "job_title": "Software Engineer",
+      "company_name": "Example Company 1",
+      "remote_or_onsite": "Remote",
+      "location": "San Francisco, CA",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$120,000 - $150,000",
+      "job_description": "We're looking for a skilled software engineer to join our team and help us build innovative products.",
+      "job_responsibility": "Design and develop software applications, collaborate with cross-functional teams to deliver high-quality software solutions.",
+      "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field.",
+      "experiences": "3+ years of experience in software development, with proficiency in multiple programming languages.",
+      "contact_information": {
+        "phone": "888-555-1234",
+        "email": "jobs@examplecompany1.com"
+      }
+    },
+    {
+      "id": 2,
+      "company_logo": "https://example.com/logo2.png",
+      "job_title": "Marketing Manager",
+      "company_name": "Example Company 2",
+      "remote_or_onsite": "Onsite",
+      "location": "New York, NY",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$80,000 - $100,000",
+      "job_description": "We're seeking a talented marketing manager to lead our marketing efforts and help us reach new customers.",
+      "job_responsibility": "Develop and execute marketing strategies to drive brand awareness and customer acquisition, collaborate with cross-functional teams to create and distribute marketing materials.",
+      "educational_requirements": "Bachelor's or Master's degree in Marketing or related field.",
+      "experiences": "5+ years of experience in marketing, with a strong portfolio of work.",
+      "contact_information": {
+        "phone": "888-555-1234",
+        "email": "jobs@examplecompany2.com"
+      }
+    },
+    {
+      "id": 3,
+      "company_logo": "https://example.com/logo3.png",
+      "job_title": "Data Analyst",
+      "company_name": "Example Company 3",
+      "remote_or_onsite": "Remote",
+      "location": "Seattle, WA",
+      "fulltime_or_parttime": "Part-time",
+      "salary": "$50,000 - $70,000",
+      "job_description": "We're looking for a skilled data analyst to help us analyze large datasets and uncover insights to inform business decisions.",
+      "job_responsibility": "Collect and analyze large datasets, develop and implement data analysis tools and techniques, present insights and recommendations to stakeholders.",
+      "educational_requirements": "Bachelor's or Master's degree in Statistics, Mathematics, or related field.",
+      "experiences": "2+ years of experience in data analysis, with proficiency in SQL and Python.",
+      "contact_information": {
+        "phone": "888-555-1234",
+        "email": "jobs@examplecompany3.com"
+      }
+    },
+    {
+        "id": 4,
+        "company_logo": "https://example.com/logo4.png",
+        "job_title": "Software Engineer",
+        "company_name": "Example Company 4",
+        "remote_or_onsite": "Onsite",
+        "location": "San Francisco, CA",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$120,000 - $150,000",
+        "job_description": "We are looking for a talented software engineer to join our team and work on cutting-edge technology.",
+        "job_responsibility": "Design and develop software applications, collaborate with cross-functional teams to define, design, and ship new features.",
+        "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field.",
+        "experiences": "5+ years of experience in software development, with a strong portfolio of work.",
+        "contact_information": {
+            "phone": "888-555-4444",
+            "email": "jobs@examplecompany4.com"
+        }
+    },
+    {
+        "id": 5,
+        "company_logo": "https://example.com/logo5.png",
+        "job_title": "Data Analyst",
+        "company_name": "Example Company 5",
+        "remote_or_onsite": "Remote",
+        "location": "Any",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$70,000 - $90,000",
+        "job_description": "We're seeking a skilled data analyst to join our team and help us turn data into insights.",
+        "job_responsibility": "Collect, analyze, and interpret large datasets, collaborate with cross-functional teams to identify business opportunities and optimize performance.",
+        "educational_requirements": "Bachelor's or Master's degree in Statistics, Mathematics, Computer Science or related field.",
+        "experiences": "2+ years of experience in data analysis, with experience in SQL and data visualization tools.",
+        "contact_information": {
+            "phone": "888-555-5555",
+            "email": "jobs@examplecompany5.com"
+        }
+    },
+    {
+        "id": 6,
+        "company_logo": "https://example.com/logo6.png",
+        "job_title": "Product Manager",
+        "company_name": "Example Company 6",
+        "remote_or_onsite": "Onsite",
+        "location": "Seattle, WA",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$120,000 - $150,000",
+        "job_description": "We're seeking an experienced product manager to help us build amazing products and grow our business.",
+        "job_responsibility": "Lead product strategy and vision, collaborate with cross-functional teams to define and launch new products and features.",
+        "educational_requirements": "Bachelor's or Master's degree in Business, Engineering, or related field.",
+        "experiences": "5+ years of experience in product management, with a strong track record of shipping successful products.",
+        "contact_information": {
+            "phone": "888-555-6666",
+            "email": "jobs@examplecompany6.com"
+        }
+    }
+]
+    
+    
+  
