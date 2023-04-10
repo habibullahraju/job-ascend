@@ -9,11 +9,14 @@ import {
 import Home from './components/Home/Home';
 import JobDetails from './components/JobDetails/JobDetails';
 import AppliedJob from './components/AppliedJob/AppliedJob';
+import ErrorPage from './components/ErrorPage/ErrorPage';
+import ReChart from './components/ReChart/ReChart';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App></App>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',
@@ -30,6 +33,10 @@ const router = createBrowserRouter([
         element: <AppliedJob></AppliedJob>,
         loader: ()=> fetch('/jobsData.json'),
         
+      },
+      {
+        path:'/chart',
+        element: <ReChart></ReChart>
       }
     ]
   }
