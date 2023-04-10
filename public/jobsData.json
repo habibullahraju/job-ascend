@@ -12,10 +12,10 @@
       "job_responsibility": "Design and develop software applications, collaborate with cross-functional teams to deliver high-quality software solutions.",
       "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field.",
       "experiences": "3+ years of experience in software development, with proficiency in multiple programming languages.",
-      "contact_information": {
+    
         "phone": "888-555-1234",
         "email": "jobs@examplecompany1.com"
-      }
+      
     },
     {
       "id": 2,
@@ -30,10 +30,10 @@
       "job_responsibility": "Develop and execute marketing strategies to drive brand awareness and customer acquisition, collaborate with cross-functional teams to create and distribute marketing materials.",
       "educational_requirements": "Bachelor's or Master's degree in Marketing or related field.",
       "experiences": "5+ years of experience in marketing, with a strong portfolio of work.",
-      "contact_information": {
+      
         "phone": "888-555-1234",
         "email": "jobs@examplecompany2.com"
-      }
+      
     },
     {
       "id": 3,
@@ -48,10 +48,10 @@
       "job_responsibility": "Collect and analyze large datasets, develop and implement data analysis tools and techniques, present insights and recommendations to stakeholders.",
       "educational_requirements": "Bachelor's or Master's degree in Statistics, Mathematics, or related field.",
       "experiences": "2+ years of experience in data analysis, with proficiency in SQL and Python.",
-      "contact_information": {
+     
         "phone": "888-555-1234",
         "email": "jobs@examplecompany3.com"
-      }
+      
     },
     {
         "id": 4,
@@ -66,10 +66,10 @@
         "job_responsibility": "Design and develop software applications, collaborate with cross-functional teams to define, design, and ship new features.",
         "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field.",
         "experiences": "5+ years of experience in software development, with a strong portfolio of work.",
-        "contact_information": {
+        
             "phone": "888-555-4444",
             "email": "jobs@examplecompany4.com"
-        }
+        
     },
     {
         "id": 5,
@@ -84,10 +84,10 @@
         "job_responsibility": "Collect, analyze, and interpret large datasets, collaborate with cross-functional teams to identify business opportunities and optimize performance.",
         "educational_requirements": "Bachelor's or Master's degree in Statistics, Mathematics, Computer Science or related field.",
         "experiences": "2+ years of experience in data analysis, with experience in SQL and data visualization tools.",
-        "contact_information": {
+        
             "phone": "888-555-5555",
             "email": "jobs@examplecompany5.com"
-        }
+        
     },
     {
         "id": 6,
@@ -102,10 +102,10 @@
         "job_responsibility": "Lead product strategy and vision, collaborate with cross-functional teams to define and launch new products and features.",
         "educational_requirements": "Bachelor's or Master's degree in Business, Engineering, or related field.",
         "experiences": "5+ years of experience in product management, with a strong track record of shipping successful products.",
-        "contact_information": {
+        
             "phone": "888-555-6666",
             "email": "jobs@examplecompany6.com"
-        }
+        
     }
 ]
     
