@@ -1,9 +1,10 @@
 import React from 'react';
 import {CurrencyDollarIcon } from '@heroicons/react/24/solid'
+import { Link } from 'react-router-dom';
 
 const Job = ({job}) => {
-    const {company_logo,job_title,company_name,remote_or_onsite,locations,fulltime_or_parttime,salary,job_description,job_responsibility,educational_requirements,experiences,contact_information ,phone,email }= job;
-    console.log(job);
+    const {id,company_logo,job_title,company_name,remote_or_onsite,locations,fulltime_or_parttime,salary,job_description,job_responsibility,educational_requirements,experiences,contact_information ,phone,email }= job;
+   
     return (
         <div className='flex justify-between items-center mt-5 border rounded-md p-3 border-gray-200'>
             <div className='inline-flex gap-8 justify-center items-center'>
@@ -28,7 +29,7 @@ const Job = ({job}) => {
                 </div>
                 </div>
             </div>
-            <button className='btn btn-primary mr-7'>View Details</button>
+            <Link to={`/job/${id}`} className='btn btn-primary mr-7'>View Details</Link>
         </div>
     );
 };

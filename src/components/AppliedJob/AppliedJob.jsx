@@ -32,6 +32,10 @@ const AppliedJob = () => {
             <img className='w-full' src={bannerLogo} alt="" />
             </div>
             </div>
+            
+            <div>
+                <h2>hello</h2>
+            </div>
                 
 
             <div className='p-28'>
