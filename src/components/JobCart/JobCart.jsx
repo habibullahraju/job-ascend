@@ -29,7 +29,7 @@ const JobCart = ({job}) => {
                     <span className='flex items-center gap-2'> <CurrencyDollarIcon className="h-5 w-5 text-white bg-gray-500 rounded-3xl" />Salary: {salary}</span>
                 </div>
             </div>
-            <Link to={`/job/${id}`} className='btn btn-primary mt-auto w-32'>View Details</Link>
+            <Link  to={`/job/${id}`} className='btn btn-primary mt-auto w-32'>View Details</Link>
         </div>
     );
 };
