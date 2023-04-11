@@ -11,6 +11,7 @@ import JobDetails from './components/JobDetails/JobDetails';
 import AppliedJob from './components/AppliedJob/AppliedJob';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import ReChart from './components/ReChart/ReChart';
+import Blog from './components/Blog/Blog';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path:'/chart',
         element: <ReChart></ReChart>
+      },
+      {
+        path:'/blog',
+        element:<Blog></Blog>
       }
     ]
   }
