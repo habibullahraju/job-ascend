@@ -41,7 +41,7 @@ const data = [
     },
     {
       name: "Assignment 6",
-      Marks: 53,
+      Marks: 57,
       pv: 3800,
       amt: 2500
     },

@@ -50,8 +50,8 @@ const AppliedJob = () => {
     
     return (
         <div>
-             <div  className='bg-gray-200 h-64 relative'>
-            <div className='text-center text-3xl font-bold  pt-20'><h2>Applied Jobs </h2></div>
+             <div  className='bg-gray-200 h-64  relative'>
+            <div className='text-center text-3xl font-bold   pt-20'><h2>Applied Jobs </h2></div>
             <div className='absolute bottom-0'>
             <img className='w-full' src={bannerLogo} alt="" />
             </div>

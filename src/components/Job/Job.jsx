@@ -9,7 +9,7 @@ const Job = ({job}) => {
         <div className='flex justify-between items-center mt-5 border rounded-md p-3 border-gray-200'>
             <div className='inline-flex gap-8 justify-center items-center'>
                 <div className='w-60 h-60 relative bg-center bg-cover'>
-                    <img className='mt-16 rounded-md  ' src={company_logo} alt="" />
+                    <img className='mt-16 p-5 rounded-md  ' src={company_logo} alt="" />
                     <div className='bg-gray-200 w-60 h-60 opacity-50 absolute top-0 rounded-md'></div>
                 </div>
                 <div>
