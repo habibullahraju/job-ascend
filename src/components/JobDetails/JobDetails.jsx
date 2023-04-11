@@ -19,7 +19,7 @@ const JobDetails = () => {
     },[])
     const {company_logo,job_title,company_name,remote_or_onsite,locations,fulltime_or_parttime,salary,job_description,job_responsibility,educational_requirements,experiences,contact_information ,phone,email }= job;
     const handleSetDataLocalStorage = (id) =>{
-        console.log(id);
+        
         addToDb(id);
     }
     

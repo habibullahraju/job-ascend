@@ -77,7 +77,7 @@ const ReChart = () => {
   
   <div className="card-body flex-grow">
     <h2 className="card-title">I have shown my seven Assignment numbers</h2>
-    <p>When i started this course with Programming Hero.i never believed, one day i finish assignment nine.we are always get love from programming hero team.we are loved programmig hero team.always pray for you.</p>
+    <p>When i started this course with Programming Hero.i never believed, one day i finish assignment nine.we are always get love from programming hero team.we are loved programming hero team.always pray for you.</p>
     <div className="card-actions justify-end">
         
 Sorry if wrong <br />
@@ -86,10 +86,9 @@ Sorry if wrong <br />
   </div>
 </div>
 
-            </div>
+      </div>
 
-            
-            <AreaChart
+    <AreaChart
       width={850}
       height={400}
       data={data}
@@ -104,18 +103,7 @@ Sorry if wrong <br />
       <XAxis dataKey="name" />
       <YAxis />
       <Tooltip />
-      <defs>
-        <linearGradient id="splitColor" x1="0" y1="0" x2="0" y2="1">
-          <stop offset={off} stopColor="green" stopOpacity={1} />
-          <stop offset={off} stopColor="red" stopOpacity={1} />
-        </linearGradient>
-      </defs>
-      <Area
-        type="monotone"
-        dataKey="Marks"
-        stroke="#000"
-        fill="url(#splitColor)"
-      />
+      <Area type="monotone" dataKey="Marks" stroke="#8884d8" fill="#8884d8" />
     </AreaChart>
        
         </div>

@@ -4,7 +4,7 @@ import CategoryCart from '../CategoryCart/CategoryCart';
 const Category = () => {
     const [category,setCategory] = useState([]);
     useEffect(()=>{
-        fetch('jobCategory.json')
+        fetch('/jobCategory.json')
         .then(res => res.json())
         .then(data => setCategory(data))
     },[])
