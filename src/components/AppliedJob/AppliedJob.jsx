@@ -48,8 +48,6 @@ const AppliedJob = () => {
 
     },[])
     
-
- 
     return (
         <div>
              <div  className='bg-gray-200 h-64 relative'>
