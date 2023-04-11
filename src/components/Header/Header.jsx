@@ -14,7 +14,7 @@ const Header = () => {
       
         <NavLink  to="/" className={({ isActive }) => isActive ? "text-blue-500 font-bold" : ""}>Home</NavLink>
         <NavLink to="/chart" className={({ isActive }) => isActive ? "text-blue-500 font-bold" : ""}>Statistics</NavLink>
-        <NavLink to="/applied" className={({ isActive }) => isActive ? "bg-blue-500 font-bold" : ""}>Applied Jobs</NavLink>
+        <NavLink to="/applied" className={({ isActive }) => isActive ? "text-blue-500 font-bold" : ""}>Applied Jobs</NavLink>
         <NavLink to="/blog" className={({ isActive }) => isActive ? "text-blue-500 font-bold" : ""}>Blog</NavLink>
       </ul>
     </div>
