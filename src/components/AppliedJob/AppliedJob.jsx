@@ -3,6 +3,7 @@ import bannerLogo from '../../assets/All Images/Vector.png'
 import { useLoaderData } from 'react-router-dom';
 import { getShoppingCart } from '../../utilities/fakedb';
 import Job from '../Job/Job';
+import {ArrowDownIcon } from '@heroicons/react/24/solid'
 
 const AppliedJob = () => {
     const [jobs,setJobs] = useState([]);
@@ -32,9 +33,16 @@ const AppliedJob = () => {
             <img className='w-full' src={bannerLogo} alt="" />
             </div>
             </div>
-            
-            <div>
-                <h2>hello</h2>
+
+
+            <div className='flex justify-end'>
+               <div className="dropdown dropdown-end">
+                <label tabIndex={0} className="btn m-1 bg-gray-200 text-black hover:bg-blue-600 ">Filter By <ArrowDownIcon className='h-5 w-5'></ArrowDownIcon> </label>
+                <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-white text-black rounded-box w-52">
+                    <li><a>Remote</a></li>
+                    <li><a>Onsite</a></li>
+                </ul>
+            </div>
             </div>
                 
 

@@ -71,7 +71,7 @@ const data = [
   const off = gradientOffset();
 const ReChart = () => {
     return (
-        <div className='lg:flex justify-center'>
+        <div className='lg:flex justify-center mt-10'>
             <div className='p-5 lg:p3'>
             <div className="card card-side bg-base-100 shadow-xl">
   
