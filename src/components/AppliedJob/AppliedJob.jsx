@@ -8,6 +8,30 @@ import {ArrowDownIcon } from '@heroicons/react/24/solid'
 const AppliedJob = () => {
     const [jobs,setJobs] = useState([]);
     const jobsData = useLoaderData();
+
+    const handleRemoteJob = ()=>{
+        const newJob = [];
+            const storedCart = getShoppingCart();
+            for(const id in storedCart){
+                const saveJob = jobsData.find(job=> job.id==id);
+                newJob.push(saveJob)
+
+            }
+            const onsiteJobs = newJob.filter(jb=> jb.remote_or_onsite === 'Remote')
+            setJobs(onsiteJobs)
+    }
+
+    const handleOnsiteJobs = () =>{
+        const newJob = [];
+            const storedCart = getShoppingCart();
+            for(const id in storedCart){
+                const saveJob = jobsData.find(job=> job.id==id);
+                newJob.push(saveJob)
+
+            }
+            const onsiteJobs = newJob.filter(jb=> jb.remote_or_onsite === 'Onsite')
+            setJobs(onsiteJobs)
+    }
    
     useEffect(()=>{
       
@@ -20,6 +44,7 @@ const AppliedJob = () => {
             
         }
         setJobs(newJob)
+        
 
     },[])
     
@@ -39,8 +64,8 @@ const AppliedJob = () => {
                <div className="dropdown dropdown-end">
                 <label tabIndex={0} className="btn m-1 bg-gray-200 text-black hover:bg-blue-600 ">Filter By <ArrowDownIcon className='h-5 w-5'></ArrowDownIcon> </label>
                 <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-white text-black rounded-box w-52">
-                    <li><a>Remote</a></li>
-                    <li><a>Onsite</a></li>
+                    <li onClick={handleRemoteJob}><a>Remote</a></li>
+                    <li onClick={handleOnsiteJobs}><a>Onsite</a></li>
                 </ul>
             </div>
             </div>
